@@ -17,7 +17,7 @@ function showNextSlide() {
 function showPrevSlide() {
   const prevIndex = (currentIndex - 1 + slides.length) % slides.length;
   console.log(prevIndex);
-  if (prevIndex > 3) return;  // nummret ska vara den sista sidan som inte kommer att synas
+  if (prevIndex > 8) return;  // nummret ska vara den sista sidan som inte kommer att synas
   showSlide(prevIndex);
 }
 
